@@ -34,7 +34,7 @@ public class UserController {
     private QiniuService qiniuService;
 
     @Autowired
-    private TopicService topicService;
+    private TopicService topicService1;
 
     /**
      * 查看我的个人主页
