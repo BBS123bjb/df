@@ -4,6 +4,7 @@ import com.fc.model.Post;
 import com.fc.model.User;
 import com.fc.service.PostService;
 import com.fc.service.QiniuService;
+import com.fc.service.TopicService;
 import com.fc.service.UserService;
 import com.fc.util.MyConstant;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,9 @@ public class UserController {
 
     @Autowired
     private QiniuService qiniuService;
+
+    @Autowired
+    private TopicService topicService;
 
     /**
      * 查看我的个人主页
