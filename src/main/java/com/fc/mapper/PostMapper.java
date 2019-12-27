@@ -20,6 +20,7 @@ public interface PostMapper {
 
     List<Post> listAllPost();
 
+
     int selectPostCount();
 
     Post getPostByPid(int pid);
